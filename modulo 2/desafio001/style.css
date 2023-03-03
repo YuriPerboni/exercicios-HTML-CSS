@@ -1,0 +1,196 @@
+@charset "utf-8";
+@font-face {
+    font-family:'yuri';
+    src: url(fontes/idroid.otf) format('opentype');}
+    
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+body{
+    background-color: #9effdf;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 20px 100px 40px 100px;
+    background-image: linear-gradient(to top, #20614b, #65a38e, #75bea6);  
+}
+
+header > h1 {
+    font-weight: bolder;
+}
+
+nav{
+    margin-top: -24px;
+    margin-bottom: 7px;
+}
+
+nav >a:hover{
+    color: black;
+}
+
+nav > a{
+color: white;
+text-decoration: none;
+  padding: 10px 10px;
+  
+}
+
+main{
+    background-color: white;
+    padding: 10px 10px;
+    border-top: 0px;
+    border-right: 100px;
+    border-left: 100px;
+    border-bottom: 15px;
+    border-style: solid;
+    border-color:#9effdf;  
+}
+
+main > .titulo{
+    font-family: 'yuri';
+    font-weight: bolder;
+    color: #20614b;
+}
+
+main > .subtitulo1{
+    font-family: 'yuri';
+    font-weight: bolder;
+    color: #20614b;
+    background-color: #20614b33;
+}
+
+a.morril:link {
+    text-decoration: none;
+    color: #20614b;
+    font-weight: bolder;
+}
+
+a.ink:link{
+    color: #20614b;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+p > .droids{
+    color: #20614b;
+    font-weight: bolder;
+}
+
+.subtitulo2{
+    font-family: 'yuri';
+    color: #20614b;
+    background-color: #20614b33;
+    font-weight: bolder;
+}
+
+a.irina:link {
+    color: #20614b;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+p > .bug{
+    color: #20614b;
+    font-weight: bolder;
+}
+
+.youtube{
+   text-align: center;
+   border: 15px solid #20614b;
+   background-color: #20614b;
+   margin: 0%;
+}
+
+aside{
+    background-color: #75bea6;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.topico{
+    border: 20px solid #20614b;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #20614b;
+    color: white;
+}
+
+.doces{
+    background-color: #75bea6;
+}
+
+
+
+li{
+    list-style: none; 
+    margin-right: 0%;
+    display: inline-block;
+}
+
+.linha1{
+    width:50% ;
+}
+.linha3{
+    width: 50%;
+}
+.linha5{
+    width: 50%;
+}
+.linha7{
+    width: 50%;
+}
+.linha9{
+    width: 50%;
+}
+
+.linha11{
+    width: 50%;
+}
+.linha13{
+    width: 50%;
+}
+
+.final{
+    color: #20614b;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #20614b;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.gustavo{
+    font-weight: bolder;
+}
+
+.curso{
+    font-weight: bolder;
+}
+
+/*imagens*/
+.img-droids{
+    width: 100%;
+}
+
+.img-irinablock{
+    width: 100%;
+}
+
+.droid{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
