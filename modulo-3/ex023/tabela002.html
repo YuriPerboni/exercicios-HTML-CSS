@@ -25,6 +25,15 @@
             font-weight: bold;
         }
 
+        tbody> tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        
+
         td.num{
             text-align: right;
             
@@ -42,26 +51,42 @@
     <caption>População das Unidades Federativas</caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>São paulo</td>
-            <td class="num">45 919 049</td>
+            <td class="num">45.919.049</td>
         </tr>
         <tr>
             <td>Minas Gerais</td>
-            <td class="num">21 168 791</td>
+            <td class="num">21.168.791</td>
         </tr>
         <tr>
             <td>Rio de Janeiro</td>
-            <td class="num">17 264 943</td>
+            <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td>14.873.064</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td>11.433.957</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td>11.377.239</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td>9.557.071</td>
         </tr>
     </tbody>
     <tfoot>
-        <th>Total de habitantes</th>
+        <th scope="row">Total de habitantes</th>
         <td class="num"><strong>84 352 783</strong></td>
     </tfoot>
 </table>
